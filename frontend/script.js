@@ -18,7 +18,7 @@ async function loadProjects() {
 
     try {
         const response = await fetch(
-            "http://localhost:5000/api/projects"
+            "https://thiranex-portfolio-1kxv.onrender.com/api/projects"
         );
 
         if (!response.ok) {
@@ -114,7 +114,7 @@ if (contactForm) {
             }
 
             const response = await fetch(
-                "http://localhost:5000/api/messages",
+                "https://thiranex-portfolio-1kxv.onrender.com/api/messages",
                 {
                     method: "POST",
                     headers: {
